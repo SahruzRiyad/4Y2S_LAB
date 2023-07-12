@@ -7,7 +7,7 @@ int doEncode(string str){
     enc_out << '1' << endl;
     
     for(i = 1 ; i < str.size() ; i++){
-        if(str[i] == str[i-1] && cnt < 256)
+        if(str[i] == str[i-1] && cnt < 128)
             cnt++;
         else 
             enc_out.put(str[i-1]),enc_out.put(cnt) , cnt = 1 , sz += 2;
