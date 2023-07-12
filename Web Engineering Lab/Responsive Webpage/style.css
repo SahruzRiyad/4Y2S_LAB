@@ -1,0 +1,16 @@
+body{
+    margin-top: 6% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+} 
+
+.headerBack {
+    background-color: lightblue !important  ;
+}
+
+.btn-bg{
+    background-color: rgb(76, 105, 192) !important;
+    
+} 

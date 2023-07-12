@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-brand .logo{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar .navbar-brand:hover {
+    color: rgb(227, 216, 216) !important;
+}
+.navbar .navbarItem a:hover {
+    color: rgb(227, 216, 216) !important;
+}
+.navbar .navDropdown:hover {
+    color: rgb(227, 216, 216) !important;
+}
+.navbar{
+    background-color: #222;
+    border-color: #080808;
+    padding: 7;
+}
+/* Dropdown  */
+.dropdwn-margin{
+    margin-right: 8rem !important;
+}
+.nav-link{
+    color: black !important;
+}
+.border-bg{
+    border-color: rgb(182, 180, 180);
+    border-style: solid;
+    border-width: thick;
+}
+.admin-bg{
+    background-color: lightblue !important;
+}
+.action-details{
+    text-decoration: none;
+}
+.action-dl{
+    text-decoration: none;
+}
+
+@media screen and (max-width : 991px) {
+    .flex-br{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+
+.nav-icon{
+    background-color: rgb(221, 221, 221);
+}
+
+.brand-margin{
+    margin-left: 5rem;
+    
+}
+
+@media screen and (max-width : 576px) {
+    .brand-margin{
+        margin-left: 0rem;
+    } 
+}
